@@ -95,8 +95,8 @@ class UI {
 
     // Prints the spinner
     showSpinner() {
-        const spinnerGIF = document.createElement('img');
-        spinnerGIF.src = 'spinner.gif';
-        document.querySelector('.spinner').appendChild(spinnerGIF);
-    }
+          const spinnerGIF = document.createElement('img');
+          spinnerGIF.src = 'spinner.gif';
+          document.querySelector('.spinner').appendChild(spinnerGIF);
+     }
 }
