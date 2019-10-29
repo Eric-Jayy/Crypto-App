@@ -100,3 +100,12 @@ class UI {
           document.querySelector('.spinner').appendChild(spinnerGIF);
      }
 }
+
+// Timer
+(function () {
+	$(document).ready(function () {
+		setTimeout(() => {
+			$('select').select();
+		}, 4000);
+	});
+})(jQuery);
