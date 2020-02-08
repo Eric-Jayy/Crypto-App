@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cryptocurrency Rates Calculator</title>
+    <title>Crypto Converter</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="cssj.css">
     <link href=" https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 </head>
 
 <body>
-    <div role="main">
+    <div>
         <h1 class="center">Cryptocurrency Rates Calculator</h1>
     </div>
     <div class="container main-content">
@@ -24,20 +24,21 @@
                     <div class="form">
                         <div class="input-field col s12">
                             <select id="currency" aria-label="Currency">
-                                <option value="" disabled selected aria-haspopup="">- Select Currency -</option>
+                                <option value="" disabled selected>- Select Currency -</option>
                                 <option value="USD">USD</option>
                                 <option value="GBP">GBP</option>
                                 <option value="EUR">Euro</option>
                             </select>
+
                         </div>
                         <div class="input-field col s12">
                             <select id="cryptocurrency" aria-label="Cryptocurrency">
-                                <option value="" disabled selected aria-haspopup="">- Select Cryptocurrency -</option>
+                                <option value="" disabled selected>- Select Cryptocurrency -</option>
                             </select>
+
                         </div>
                         <div class="input-field col s12">
-                            <button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Get
-                                Valuation
+                            <button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Get Valuation
                                 <i class="material-icons right">attach_money</i>
                             </button>
                         </div>
@@ -45,18 +46,17 @@
                         <div class="spinner"></div>
                         <div id="result" class="col s12"></div>
                     </div>
-                  </div>
-                
-              </form>
-            </div>
-    </div>
-        
+
+                </div>
+            </form>
+        </div>
+
         <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="materialize.min.js"></script>
-        <script src="cryptoAPI.js"></script>
-        <script src="ui.js"></script>
-        <script src="app.js"></script>
-        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="js/ui.js"></script>
+        <script src="js/cryptoAPI.js"></script>
+        <script src="js/app.js"></script>
 </body>
+
 </html>
