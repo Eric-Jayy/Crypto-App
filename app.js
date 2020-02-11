@@ -1,5 +1,5 @@
-const cryptoAPI = new CryptoAPI();
 const ui = new UI();
+const cryptoAPI = new CryptoAPI();
 
 // Create the variables
 
