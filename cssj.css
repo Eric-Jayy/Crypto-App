@@ -46,10 +46,7 @@ form {
     width: 100%;
 }
 
-.loader {
+.spinner {
     text-align: center;
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    animation: spin 2s linear infinite;
 }
 
