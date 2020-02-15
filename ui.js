@@ -5,6 +5,13 @@ class UI {
     init() {
         this.printCryptoCurrencies();
     }
+
+    preLoader() {
+          window.addEventListener.load(function() {
+               document.querySelector('.preloader').fadeOut('slow');
+          })
+     }
+	
     // Print the <option> for the new form
     printCryptoCurrencies() {
         cryptoAPI.getCryptoCurrenciesList()
