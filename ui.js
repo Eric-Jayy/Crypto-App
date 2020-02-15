@@ -113,6 +113,6 @@ class UI {
 	$(document).ready(function () {
 		setTimeout(() => {
 			$('select').select();
-		}, 4000);
+		}, 100);
 	});
 })(jQuery);
