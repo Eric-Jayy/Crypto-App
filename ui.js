@@ -103,9 +103,11 @@ class UI {
 
 // Timer
 (function () {
-	$(document).ready(function () {
-		setTimeout(() => {
-			$('select').select();
-		}, 100);
-	});
-})(jQuery);
+	$(window).on("load", function() {
+        $('select').select();
+        $(".preloader").fadeOut(2000);
+    });
+})
+
+(jQuery);
+
